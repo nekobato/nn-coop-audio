@@ -1,6 +1,6 @@
 {
   "name": "@nekobato/nn-coop-audio",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Cooperating audio tag that limit the playing audio at one.",
   "type": "module",
   "types": "nn-coop-audio.d.ts",
