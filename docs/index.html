@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script type="module" src="https://unpkg.com/@nekobato/nn-coop-audio/nn-coop-audio.bundled.js"></script>
+    <title>nn-coop-audio</title>
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
+    <link rel="stylesheet" href="style.css" />
+    <script type="text/javascript" src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="container">
+      <section class="component-section">
+        <h1>nn-coop-audio</h1>
+        <div class="figure-container">
+          <figure>
+            <nn-coop-audio src="野良猫は宇宙を目指した.mp3" coop controls></nn-coop-audio>
+            <nn-coop-audio src="野良猫は宇宙を目指した.mp3" coop controls></nn-coop-audio>
+            <nn-coop-audio src="野良猫は宇宙を目指した.mp3" coop controls></nn-coop-audio>
+            <nn-coop-audio src="野良猫は宇宙を目指した.mp3" coop controls></nn-coop-audio>
+          </figure>
+        </div>
+      </section>
+      <section>
+        <h2>Description:</h2>
+        <p>nn-coop-audio automatically limits the playing audio to one.</p>
+      </section>
+      <section class="code-section">
+        <h2>Usage:</h2>
+        <pre>
+          <code class="language-html">
+&lt;nn-coop-audio src="/example/野良猫は宇宙を目指した.mp3" coop controls>&lt;/nn-coop-audio>
+          </code>
+        </pre>
+      </section>
+      <p>音楽素材：<a href="https://dova-s.jp/bgm/play2873.html">野良猫は宇宙を目指した</a></p>
+    </div>
+  </body>
+</html>
